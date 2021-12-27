@@ -1,0 +1,39 @@
+/* Joseph Wang
+12/27/2021
+CSS styling for "This Lotus Does Not Exist" */
+
+html {
+    background: #363636;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+body {
+    /* text color */
+    color: #dde2e7;
+}
+
+.hor-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* center div */
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* 100 vieport height (100% of screen) */
+    height: 100vh;
+}
+
+#caption {
+    display: flex;
+    justify-content: center;
+}
+
+#link {
+    color: #dde2e7;
+}
